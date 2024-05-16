@@ -1,0 +1,33 @@
+/* Define @font-face for Scandia-Regular */
+@font-face {
+  font-family: 'Scandia-Regular';
+  src: local('Scandia-Regular'), url(/src/assets/fonts/Scandia-Regular.ttf);
+}
+
+/* Define @font-face for Scandia-Medium */
+@font-face {
+  font-family: 'Scandia-Medium';
+  src: local('Scandia-Medium'), url(/src/assets/fonts/Scandia-Medium.ttf);
+}
+
+/* Apply the Scandia font-family to elements with the .Scandia class */
+.Scandia {
+  font-family: 'Scandia-Regular', sans-serif;
+  /* Default to regular */
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden; 
+}
+
+#root {
+  background-color: #F4F7FE;
+  /* padding: 20px; */
+  margin: 0
+}
